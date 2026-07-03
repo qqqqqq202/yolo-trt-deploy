@@ -1,0 +1,35 @@
+# Build
+build/
+
+# TensorRT engine cache (rebuilt from ONNX)
+*.engine
+
+# Test data & results
+test_video.mp4
+result.mp4
+*.mp4
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude config
+.claude/
+
+# PPT & temp files
+*.pptx
+~$*
+
+# Model weights (downloaded by ultralytics)
+yolov8n.pt
+*.pt
+*.mpg
